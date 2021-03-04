@@ -1,0 +1,13 @@
+extends index 
+block login     
+    form()
+        div 
+            input#login(type="text")
+        div
+            input#password(type="password")
+        div 
+            button#login-button login 
+            button#google-button Google 
+            button#vk-button VK 
+            button#github-button GitHub
+    script(src="/javascripts/auth.js") 
